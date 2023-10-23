@@ -77,3 +77,45 @@ function validarCPF(strCPF) {
 
     return true;
 };
+
+// Este código tem o propósito de verificar se um número de CPF é válido. Vou explicar o código linha por linha:
+
+// -> function validarCPF(strCPF) {: Isso define uma função chamada validarCPF que aceita um argumento strCPF, que deve ser uma string contendo um número de CPF.
+
+// -> var Soma;: Declara uma variável chamada Soma que será usada para calcular a soma de produtos.
+
+// -> var Resto;: Declara uma variável chamada Resto que será usada para calcular o resto da divisão.
+
+// -> Soma = 0;: Inicializa a variável Soma com o valor 0.
+
+// -> if (strCPF == "00000000000") return false;: Verifica se o CPF é igual a "00000000000" e, se for, retorna false. Isso é um caso especial para CPFs inválidos.
+
+// -> for (i=1; i<=9; i++) {: Inicia um loop for que itera de 1 a 9. Este loop é usado para calcular a soma de produtos.
+
+// -> Soma = Soma + parseInt(strCPF.substring(i-1, i)) * (11 - i);: Dentro do loop, a cada iteração, ele pega o caractere da string strCPF na posição i-1 (lembrando que o índice em JavaScript começa em 0) e o converte em um número inteiro usando parseInt(). Esse número é multiplicado por 11 - i e adicionado à variável Soma.
+
+// -> };: Fecha o loop for.
+
+// -> Resto = (Soma * 10) % 11;: Calcula o resto da divisão de Soma * 10 por 11.
+
+// -> if ((Resto == 10) || (Resto == 11)) Resto = 0;: Verifica se o Resto é igual a 10 ou 11 e, se for, define Resto como 0.
+
+// -> if (Resto != parseInt(strCPF.substring(9, 10))) {return false};: Verifica se o Resto calculado não é igual ao nono dígito do CPF (que está na posição 9 da string strCPF). Se não for igual, a função retorna false.
+
+// -> Soma = 0;: Reinicializa a variável Soma com o valor 0.
+
+// -> for (i = 1; i <= 10; i++): Inicia outro loop for, desta vez de 1 a 10. Este loop é usado para calcular outra soma de produtos.
+
+// -> Soma = Soma + parseInt(strCPF.substring(i-1, i)) * (12 - i);: Dentro deste loop, ele faz um cálculo semelhante ao loop anterior, mas multiplicando os dígitos do CPF pelas posições inversas (12 - i).
+
+// -> };: Fecha o segundo loop for.
+
+// -> Resto = (Soma * 10) % 11;: Calcula o resto da divisão de Soma * 10 por 11.
+
+// -> if ((Resto == 10) || (Resto == 11)) Resto = 0;: Verifica se o Resto é igual a 10 ou 11 e, se for, define Resto como 0.
+
+// -> if (Resto != parseInt(strCPF.substring(10, 11))) {return false};: Verifica se o Resto calculado não é igual ao décimo dígito do CPF (que está na posição 10 da string strCPF). Se não for igual, a função retorna false.
+
+// -> return true;: Se a função não retornou false em nenhum dos pontos anteriores, isso significa que o CPF é válido, e a função retorna true.
+
+// -> Em resumo, esse código implementa uma validação simplificada de CPF, verificando se o número fornecido é válido com base em cálculos matemáticos específicos para CPFs brasileiros.
