@@ -25,12 +25,12 @@ O projeto pode ser acessado por seu repositório no github. O código está disp
 
 ### 💻 Para rodar o projeto siga a instruções:
 
-1. **Clone o [repositório](https://github.com/vitorgabrieldev/Practical_challenge_clickWeb-Pett_Love) em sua máquina**
+1. **Clone o [repositório](https://github.com/vitorgabrieldev/Phone_and_cpf_verification) em sua máquina**
 ``` bash
-  git clone https://github.com/vitorgabrieldev/Practical_challenge_clickWeb-Pett_Love
+  git clone https://github.com/vitorgabrieldev/Phone_and_cpf_verification
 ```
 
-2. **Abra o arquivo [index.html](https://pt.wikipedia.org/wiki/Index.html) no seu navegador.**
+2. **Abra o arquivo [index.html](https://pt.wikipedia.org/wiki/Index.html), localizado dentro da pasta clonada chamada *Phone_and_cpf_verification* no seu navegador.**
 
 #
 
@@ -39,28 +39,21 @@ O projeto pode ser acessado por seu repositório no github. O código está disp
 | ⚒ Marcação | [Html](https://developer.mozilla.org/pt-BR/docs/Web/HTML) |
 | 🖍 Estilo | [Css](https://developer.mozilla.org/pt-BR/docs/Web/CSS) |
 | 💻 Script | [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) |
-| 📝 Framework | [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/) |
 | 👨‍💻 Versionamento de código | [Git](https://git-scm.com/docs) | 
 | 🔂 Controle de versão | [Github](https://docs.github.com/pt) | 
-| ⚙ Libs js | [Jquery](https://jquery.com/) - [Animate Cloudfrare](https://cdnjs.com/libraries/animate.css)|
-| 📱 Design | [Figma DEVmode](https://www.figma.com/dev-mode/) |
 
 #
 
-**Página Incial**
-![App Screenshot](https://raw.githubusercontent.com/vitorgabrieldev/imgs_readmes/main/Design%20sem%20nome.gif)
+**Tela Inicial**
+![App Screenshot](https://raw.githubusercontent.com/vitorgabrieldev/imgs_readmes/main/Capturar.PNG)
 
-**Página dos Pets**
-![App Screenshot](https://github.com/vitorgabrieldev/imgs_readmes/blob/main/Design%20sem%20nome%20(1).gif?raw=true)
+
+**Aplicação das Máscaras**
+![App Screenshot](https://raw.githubusercontent.com/vitorgabrieldev/imgs_readmes/main/sdfsdfsd.PNG)
 
 #
 
-# Programador 👨‍💻
+# Contribuidores 👨‍💻
 
 | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/106203763?v=4" width=95><br><sub>Vitor Gabriel</sub>](https://github.com/vitorgabrieldev)
-| :---: |
-
-# Designer 📲
-
-| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/5519736?s=200&v=4" width=95><br><sub>Clickweb</sub>](https://github.com/Clickweb)
 | :---: |
