@@ -1,5 +1,7 @@
-// Detectar Evento de Click no elemento com id="btn"
-document.getElementById("btn").addEventListener("click", () => {
+
+// ========== Verificação do telefone ==========
+
+document.getElementById("campo_telefone").addEventListener("blur", () => {
 
     // Acessar Valor digitado no telefone
     let telefone = document.getElementById("campo_telefone").value;
@@ -20,9 +22,13 @@ document.getElementById("btn").addEventListener("click", () => {
         document.getElementById("campo_telefone").value = telefone;
     };
 
+});
     
 // ==================================================================================
 
+// ========== Verificação do cf ==========
+
+document.getElementById("campo_cpf").addEventListener("blur", () => {
     // Acessar Valor digitado no cpf
     let cpf = document.getElementById("campo_cpf").value;
 
